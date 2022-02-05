@@ -10,14 +10,14 @@ export default function App() {
     <TransformWrapper
       maxScale={40}
       doubleClick={{
-        step: 1
+        step: 1,
       }}
     >
       <div className="App">
         <TransformComponent
           wrapperStyle={{
             maxWidth: "100%",
-            maxHeight: "100vh"
+            maxHeight: "100vh",
           }}
         >
           <div className="container">
